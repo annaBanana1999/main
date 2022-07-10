@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    border: white solid;
+    background:linear-gradient(45deg,blue,red);
+    animation: changeColor 2s linear infinite alternate;
+      
+      font: 14px;
+      border-radius: 30px;
+      border: 20px;
+      text-align: center;
+      
+}
+
+@keyframes changeColor{
+    to {filter:hue-rotate(90deg);}
+}
+
+#name{
+    margin: 10px;
+    color: white;
+  
+}
+
+#name input{
+    background:none;
+    border:rgb(231, 225, 225) solid 1px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    height: 30px; 
+    border-radius: 10px;
+    
+}
